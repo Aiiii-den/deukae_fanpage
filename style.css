@@ -1,0 +1,43 @@
+*{
+    /*font-family: "Papyrus", fantasy;*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header,
+footer{
+    background-color: #1F2937;
+}
+
+#groupInfo h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+#groupInfo p{
+    font-size: 18px;
+    color: #e5e7eb
+}
+
+button{
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+#quote{
+    background-color: #e5e7eb;
+}
+
+#quote #sentence{
+    font-size: 36px;
+    font-family: light italic;
+    color: #1F2937;
+}
+
+#member figcaption{
+    font-size: small;
+}
+
+#member figcaption b{
+    font-size: large;
+}
