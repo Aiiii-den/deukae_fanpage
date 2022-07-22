@@ -3,18 +3,35 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header,
-footer{
+.flex-container{
+    display: flex;
+}
+
+.flex-container div{
+    height: 500px;
+    flex: 1;
     background-color: #1F2937;
 }
 
-#groupInfo h2{
+.groupPic{
+    margin:auto;
+    height: auto;
+    width: auto;
+}
+
+header,
+footer{
+    background-color: #1F2937;
+    color: #f9faf8;
+}
+
+.groupInfo h2{
     font-size: 48px;
     font-weight: bold;
     color: #f9faf8;
 }
 
-#groupInfo p{
+.groupInfo p{
     font-size: 18px;
     color: #e5e7eb
 }
@@ -24,20 +41,43 @@ button{
     color: #f9faf8;
 }
 
-#quote{
+.quote{
     background-color: #e5e7eb;
 }
 
-#quote #sentence{
+.quote #sentence{
     font-size: 36px;
     font-family: light italic;
     color: #1F2937;
 }
 
-#member figcaption{
+.member figcaption{
     font-size: small;
 }
 
-#member figcaption b{
+.member figcaption b{
     font-size: large;
+}
+
+.member img{
+    margin:50px;
+    height: auto;
+    width: 20px;
+}
+
+.member .unni_line .flex-container{
+    width: 30px;
+    height: auto;
+    flex:1 1 auto;
+}
+.member .maknae_line .flex-container{
+    width: 30px;
+    height: auto;
+    flex:1 1 auto;
+}
+
+footer{
+    height: auto;
+    text-align: center;
+    padding:10px 10px;
 }
