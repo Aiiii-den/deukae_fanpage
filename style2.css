@@ -58,13 +58,18 @@ img{
     gap: 52px;
     margin:40px;
     text-align: center;
+    padding-bottom: 50px;
 }
 
 p{
     gap: 52px;
-    margin:50px 25px;
+    /*margin:50px 25px;*/
     text-align: center;
     font-size: 20px;
+}
+
+.IntroText{
+    margin: 50px auto;
 }
 
 .startStanning{
@@ -73,11 +78,11 @@ p{
     font-size: 20px;
 }
 
-
 .flex_container{
     display: flex;
     justify-content: center;
     gap: 52px;
+    margin-bottom: 30px;
 }
 
 .human{
@@ -85,12 +90,13 @@ p{
     justify-content: center;
     gap: 52px;
     flex-direction: row;
-    padding-bottom: 52px;
+    margin-bottom: 60px;
 }
+
 
 h3{
     text-align: center;
-    margin-bottom: 52px;
+    margin-bottom: 50px;
 }
 
 .pet{
@@ -98,5 +104,37 @@ h3{
     justify-content: center;
     gap: 52px;
     flex-direction: row;
-    padding-bottom: 52px;
+    margin-bottom: 80px;
+}
+
+figure{
+    margin-bottom: 60px;
+}
+
+.ahh{
+    height:20px;
+}
+
+.members .figcaption{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 1px;
+    height: 50px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.quote .sentencte{
+    margin-bottom: 10px;
+}
+
+.quote .person{
+    text-align: right;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-right: 40%;
+    margin-top: 0px;
+    margin-bottom: 50px;
 }
