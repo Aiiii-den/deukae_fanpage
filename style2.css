@@ -11,6 +11,7 @@ footer{
    
 }
 footer p{
+    height: 9px;
     font-size: 10px;
     margin: 5px auto;
 }
@@ -21,36 +22,38 @@ header{
     justify-content: space-between;
     gap: 1px;
     height: 50px;
-    padding-top: 5px;
-    padding-left: 10px;
-    padding-right: 20px;
+    padding-top: 12px;
+    padding-left: 12%;
+    padding-right: 12%;
 }
 
 header img{
-    height: 50px;
-    width: 50px;
-    margin: 10px;
-    margin-top: 30px;
+    height: 40px;
+    width: 40px;
+    margin-left: 12px;
 }
 
-
+header a{
+    text-decoration: none;
+}
 img{
     width: auto;
-    height: 400px;
+    height: 450px;
 }
 
-.container .group,
-.container .group2{
-    height: 100px;
+.group,
+.group2{
+    height: 30px;
     width: auto;
 }
 
 .container{
     display: flex;
-    margin:5%;
+    width: auto;
     height: 400px;
     text-align: center;
     justify-content: space-evenly;
+    padding: 5% 10%;
 }
 
 .container .h1{
@@ -58,7 +61,7 @@ img{
     gap: 52px;
     margin:40px;
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
 }
 
 p{
@@ -69,54 +72,56 @@ p{
 }
 
 .IntroText{
-    margin: 50px auto;
+    margin: 80px auto;
 }
 
 .startStanning{
-    margin: 40px auto;
+    margin: 0px auto;
     background-color: deeppink;
     font-size: 20px;
+    border-radius: 12px;
+    padding:8px 14px;
 }
 
 .flex_container{
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 52px;
-    margin-bottom: 30px;
+    margin-top: 25px;
 }
 
 .human{
     display: flex;
     justify-content: center;
-    gap: 52px;
-    flex-direction: row;
+    align-items: center;
+    flex-direction: column;
     margin-bottom: 60px;
 }
 
 
 h3{
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
+    font-size: 25px;
 }
 
-.pet{
+.pets{
     display: flex;
     justify-content: center;
-    gap: 52px;
-    flex-direction: row;
-    margin-bottom: 80px;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 60px;
+    margin-top: 10px;
 }
 
 figure{
-    margin-bottom: 60px;
+    margin-bottom: 10px;
 }
 
-.ahh{
-    height:20px;
-}
-
-.members .figcaption{
+figcaption{
     display: flex;
+    font-weight: bolder;
     justify-content: space-between;
     flex-direction: row;
     gap: 1px;
@@ -137,4 +142,8 @@ figure{
     padding-right: 40%;
     margin-top: 0px;
     margin-bottom: 50px;
+}
+
+.members{
+    margin-top: 2%;
 }
