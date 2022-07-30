@@ -162,7 +162,6 @@ figcaption {
 .container-m {
     display: flex;
     justify-content: center;
-
     flex-direction: row;
     margin-bottom: 60px;
     margin-top: 60px;
@@ -176,7 +175,7 @@ iframe {
 .member-e {
     display: flex;
     flex-direction: column;
-    margin-right: 40px;
+    margin-right: 180px;
 }
 
 .imgpc {
@@ -189,14 +188,16 @@ iframe {
     text-align: center;
     color: #f9faf8;
     font-size: large;
-    font-family: ;
-
 }
 
 .name {
     position: absolute;
-    top: 15%;
+    top: 8%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: transparent;
+    text-shadow: #1F2937 0px 0px 2px,  
+                 #1F2937 0px 0px 2px,  
+                 #1F2937 0px 0px 2px,
+                 #1F2937 0px 0px 2px;
 }
