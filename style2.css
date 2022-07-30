@@ -149,15 +149,15 @@ figcaption {
     margin-top: 0px;
     margin-bottom: 50px;
 }
-
+/*
 .members {
     margin-top: 2%;
-}
-
+}*/
+/*
 .iframe-container2 {
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 40px;
-}
+}*/
 
 .ifindex {
     display: flex;
@@ -167,6 +167,7 @@ figcaption {
     margin-right: 18px;
     margin-left: 18px;
 }
+/*
 .container1 {
     display: flex;
     width: auto;
@@ -174,7 +175,7 @@ figcaption {
     text-align: center;
     justify-content: space-evenly;
     padding: 3% 10% 0% 10%;
-}
+}*/
 
 /*
     code for members.html
