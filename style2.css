@@ -154,12 +154,12 @@ figcaption {
     margin-top: 2%;
 }
 
-.iframe-container2{
+.iframe-container2 {
     margin-top: 18px;
     margin-bottom: 40px;
 }
 
-.ifindex{
+.ifindex {
     display: flex;
     align-items: center;
     width: 640px;
@@ -209,9 +209,42 @@ iframe {
     top: 8%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: transparent;
-    text-shadow: #1F2937 0px 0px 2px,  
-                 #1F2937 0px 0px 2px,  
-                 #1F2937 0px 0px 2px,
-                 #1F2937 0px 0px 2px;
+    background-color: white;
+    /*text-shadow: #1F2937 0px 0px 2px,
+        #1F2937 0px 0px 2px,
+        #1F2937 0px 0px 2px,
+        #1F2937 0px 0px 2px;*/
+
+    color: #1F2937;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#JiU{
+    padding-left: 134px;
+    padding-right: 134px;  
+}
+#SuA{
+    padding-left: 129px;
+    padding-right: 129px;  
+}
+#Siyeon{
+    padding-left: 118px;
+    padding-right: 117px;
+}
+#Handong{
+    padding-left: 106px;
+    padding-right: 106px;
+}
+#Yoohyeon{
+    padding-left: 103px;
+    padding-right: 102px;
+}
+#Dami{
+    padding-left: 123px;
+    padding-right: 123px;
+}
+#Gahyeon{
+    padding-left: 109px;
+    padding-right: 108px;
 }
