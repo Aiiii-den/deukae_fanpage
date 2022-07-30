@@ -159,6 +159,15 @@ figcaption {
     margin-bottom: 65px;
 }
 
+.ifindex{
+    display: flex;
+    align-items: center;
+    width: 640px;
+    height: 360px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
 /*
     code for members.html
 */
