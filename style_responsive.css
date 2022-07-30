@@ -1,0 +1,264 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #1F2937;
+    color: #f9faf8;
+}
+
+footer {
+    height: auto;
+    text-align: center;
+    border-top: #f9faf8 solid 0.1%;
+
+}
+
+footer p {
+    height: 0.9%;
+    font-size: 0.9%;
+    margin: 0.46% auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.01%;
+    height: 4.9%;
+    padding-top: 1.2%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+header img {
+    height: 3.7%;
+    width: auto;
+}
+
+header a {
+    text-decoration: none;
+}
+
+main a {
+    text-decoration: none;
+    font-style: italic;
+}
+
+/*
+img {
+    width: auto;
+    height: 150%;
+}*/
+
+.group,
+.group2 {
+    width: auto;
+    height: 400px;
+
+}
+
+.groupPic {
+    height: 90%;
+    width: auto;
+}
+
+/*.groupIntro{
+    padding: 0 3% 0 3%;
+}*/
+
+.container {
+    display: flex;
+    width: auto;
+    height: 37%;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 3% 8%;
+}
+
+.container .h1 {
+    display: flex;
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+p {
+    text-align: center;
+    font-size: 120%;
+    padding-bottom: 7.4%;
+}
+
+.IntroText {
+    margin: 5% auto;
+}
+
+.startStanning {
+    margin: 0% auto;
+    background-color: deeppink;
+    font-size: 100%;
+    border-radius: 10%;
+    padding: 2% 10%;
+}
+
+.flex_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+    margin-top: 25px;
+}
+
+.human {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+
+h3 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+
+.pets {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 60px;
+    margin-top: 10px;
+}
+
+figure {
+    margin-bottom: 10px;
+}
+
+figcaption {
+    display: flex;
+    font-weight: bolder;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 1px;
+    height: 50px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.quote .sentencte {
+    margin-bottom: 10px;
+}
+
+.quote .person {
+    text-align: right;
+    font-size: 90%;
+    font-weight: bolder;
+    padding-right: 40%;
+    margin-top: 0px;
+    margin-bottom: 10%;
+}
+
+.members {
+    margin-top: 2%;
+}
+
+.iframe-container2 {
+    margin-top: 5%;
+    margin-bottom: 8%;
+}
+
+.ifindex {
+    display: flex;
+    align-items: center;
+    width: 444.8%;
+    height: 444.4%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+
+/*
+    code for members.html
+*/
+
+.container-m {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+iframe {
+    height: 480px;
+    width: 854px;
+}
+
+.member-e {
+    display: flex;
+    flex-direction: column;
+    margin-right: 180px;
+}
+
+.imgpc {
+    height: 300px;
+    width: auto;
+}
+
+.pic {
+    position: relative;
+    text-align: center;
+    color: #f9faf8;
+    font-size: large;
+}
+
+.name {
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    /*text-shadow: #1F2937 0px 0px 2px,
+        #1F2937 0px 0px 2px,
+        #1F2937 0px 0px 2px,
+        #1F2937 0px 0px 2px;*/
+
+    color: #1F2937;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#JiU {
+    padding-left: 134px;
+    padding-right: 134px;
+}
+
+#SuA {
+    padding-left: 129px;
+    padding-right: 129px;
+}
+
+#Siyeon {
+    padding-left: 118px;
+    padding-right: 117px;
+}
+
+#Handong {
+    padding-left: 106px;
+    padding-right: 106px;
+}
+
+#Yoohyeon {
+    padding-left: 103px;
+    padding-right: 102px;
+}
+
+#Dami {
+    padding-left: 123px;
+    padding-right: 123px;
+}
+
+#Gahyeon {
+    padding-left: 109px;
+    padding-right: 108px;
+}
