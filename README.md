@@ -1,2 +1,3 @@
-# odin_landing_page
-Flexbox Project
+# Dreamcatcher Fanpage
+
+Unofficial landing page for the K-Pop group Dreamcatcher
