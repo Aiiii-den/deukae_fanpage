@@ -24,12 +24,12 @@ header {
     gap: 1px;
     height: 50px;
     padding-top: 12px;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 162px;
+    padding-right: 162px;
 }
 
 header img {
-    height: 40px;
+    height: 35px;
     width: 40px;
 }
 
@@ -155,7 +155,7 @@ figcaption {
 }
 
 .iframe-container2 {
-    margin-top: 18px;
+    margin-top: 30px;
     margin-bottom: 40px;
 }
 
@@ -164,10 +164,17 @@ figcaption {
     align-items: center;
     width: 640px;
     height: 360px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 18px;
+    margin-left: 18px;
 }
-
+.container1 {
+    display: flex;
+    width: auto;
+    height: 400px;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 3% 10% 0% 10%;
+}
 
 /*
     code for members.html
