@@ -35,6 +35,11 @@ header img{
 header a{
     text-decoration: none;
 }
+
+main a{
+    text-decoration: none;
+    font-style: italic;
+}
 img{
     width: auto;
     height: 390px;
