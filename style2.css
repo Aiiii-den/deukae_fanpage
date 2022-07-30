@@ -59,7 +59,7 @@ img {
     height: 400px;
     text-align: center;
     justify-content: space-evenly;
-    padding: 5% 10%;
+    padding: 3% 10%;
 }
 
 .container .h1 {
@@ -156,7 +156,7 @@ figcaption {
 
 .iframe-container2{
     margin-top: 18px;
-    margin-bottom: 65px;
+    margin-bottom: 40px;
 }
 
 .ifindex{
@@ -167,6 +167,7 @@ figcaption {
     margin-right: 20px;
     margin-left: 20px;
 }
+
 
 /*
     code for members.html
