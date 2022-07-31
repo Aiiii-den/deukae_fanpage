@@ -149,6 +149,7 @@ figcaption {
     margin-top: 0px;
     margin-bottom: 50px;
 }
+
 /*
 .members {
     margin-top: 2%;
@@ -167,6 +168,7 @@ figcaption {
     margin-right: 18px;
     margin-left: 18px;
 }
+
 /*
 .container1 {
     display: flex;
@@ -228,31 +230,44 @@ iframe {
     padding-bottom: 5px;
 }
 
-#JiU{
+#JiU {
     padding-left: 134px;
-    padding-right: 134px;  
+    padding-right: 134px;
 }
-#SuA{
+
+#SuA {
     padding-left: 129px;
-    padding-right: 129px;  
+    padding-right: 129px;
 }
-#Siyeon{
+
+#Siyeon {
     padding-left: 118px;
     padding-right: 117px;
 }
-#Handong{
+
+#Handong {
     padding-left: 106px;
     padding-right: 106px;
 }
-#Yoohyeon{
+
+#Yoohyeon {
     padding-left: 103px;
     padding-right: 102px;
 }
-#Dami{
+
+#Dami {
     padding-left: 123px;
     padding-right: 123px;
 }
-#Gahyeon{
+
+#Gahyeon {
     padding-left: 109px;
     padding-right: 108px;
+}
+
+/* footer adjustments*/
+.ghLogo {
+    width: 10px;
+    height: auto;
+    padding-left: 5px;
 }
