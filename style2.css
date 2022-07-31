@@ -5,16 +5,20 @@
 }
 
 footer {
-    height: auto;
+    height: 30px;
     text-align: center;
     border-top: #f9faf8 solid 1px;
 
 }
 
 footer p {
-    height: 9px;
-    font-size: 10px;
-    margin: 5px auto;
+    font-size: 12px;
+}
+
+.ghLogo {
+    width: 14px;
+    height: 14px;
+    padding-left: 7.5px;
 }
 
 header {
@@ -263,11 +267,4 @@ iframe {
 #Gahyeon {
     padding-left: 109px;
     padding-right: 108px;
-}
-
-/* footer adjustments*/
-.ghLogo {
-    width: 10px;
-    height: auto;
-    padding-left: 5px;
 }
