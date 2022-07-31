@@ -5,6 +5,8 @@
 }
 
 footer {
+    display: flex;
+    justify-content: center;
     height: 30px;
     text-align: center;
     border-top: #f9faf8 solid 1px;
@@ -13,6 +15,8 @@ footer {
 
 footer p {
     font-size: 12px;
+    padding-top: 6px;
+    margin: 4px;
 }
 
 .ghLogo {
