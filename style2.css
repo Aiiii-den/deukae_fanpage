@@ -95,6 +95,9 @@ p {
     font-size: 20px;
     border-radius: 12px;
     padding: 8px 14px;
+    border: #1F2937 1px;
+    cursor: pointer;
+    font-style: normal;
 }
 
 .flex_container {
